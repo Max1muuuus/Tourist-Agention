@@ -29,7 +29,7 @@ function ScrollToTop() {
 
 export default function AppRoot() {
   return (
-    <HashRouter basename="/Tourist-Agention">
+    <HashRouter>
       <ScrollToTop />
       <div className="app-shell">
         <Header />
